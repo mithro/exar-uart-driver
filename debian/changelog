@@ -1,3 +1,9 @@
+vizzini (1.0.0-4) unstable; urgency=low
+
+  * Fixed log message and updated README.Debian
+
+ -- Tim 'mithro' Ansell <mithro@mithis.com>  Thu, 02 Jul 2015 14:44:00 +1030
+
 vizzini (1.0.0-3) unstable; urgency=low
 
   * Now can be loaded side-by-side with the cdc-acm module.
