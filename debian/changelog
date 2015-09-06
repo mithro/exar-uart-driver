@@ -5,6 +5,7 @@ vizzini (1.0.0-5) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.6, no changes needed.
   * Use machine-readable copyright format, expand on copyright holders, and
     correct FSF address.
+  * Switch to 3.0 (quilt)
 
  -- Stefano Rivera <stefanor@debian.org>  Sat, 05 Sep 2015 17:57:22 -0700
 
