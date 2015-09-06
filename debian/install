@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -eu
+
+VERSION=$(dpkg-parsechangelog -S Version | cut -d- -f 1)
+SRC=/usr/src/vizzini-$VERSION
+
+cat <<EOF
+Makefile      $SRC
+vizzini.c     $SRC
+vizzini.h     $SRC
+vzioctl.h     $SRC
+EOF
