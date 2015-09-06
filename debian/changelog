@@ -1,3 +1,14 @@
+vizzini (1.0.0-5) UNRELEASED; urgency=medium
+
+  * Port to dkms.
+  * Switch to dh, compat level 9.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Use machine-readable copyright format, expand on copyright holders, and
+    correct FSF address.
+  * Switch to 3.0 (quilt)
+
+ -- Stefano Rivera <stefanor@debian.org>  Sat, 05 Sep 2015 17:57:22 -0700
+
 vizzini (1.0.0-4) unstable; urgency=low
 
   * Fixed log message and updated README.Debian
