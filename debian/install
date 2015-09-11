@@ -2,7 +2,7 @@
 
 set -eu
 
-VERSION=$(dpkg-parsechangelog -S Version | cut -d- -f 1)
+VERSION=$(dpkg-parsechangelog | sed -rne 's,^Version: (.+)-.*,\1,p')
 SRC=/usr/src/vizzini-$VERSION
 
 cat <<EOF
